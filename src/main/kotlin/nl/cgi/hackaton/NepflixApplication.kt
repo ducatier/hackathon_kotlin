@@ -2,16 +2,13 @@ package nl.cgi.hackaton
 
 import nl.cgi.hackaton.domain.Series
 import nl.cgi.hackaton.repository.SeriesRepository
-import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.CommandLineRunner
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.context.annotation.Bean
-import org.springframework.context.annotation.Configuration
-import javax.annotation.PostConstruct
 
 @SpringBootApplication
-class DemoApplication{
+class NepflixApplication {
 
     @Bean
     fun init(repository: SeriesRepository) = CommandLineRunner {
@@ -23,7 +20,7 @@ class DemoApplication{
 }
 
     fun main(args: Array<String>) {
-        SpringApplication.run(DemoApplication::class.java, *args)
+        SpringApplication.run(NepflixApplication::class.java, *args)
     }
 
 
