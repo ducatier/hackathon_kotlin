@@ -1,6 +1,7 @@
 package nl.cgi.hackaton.repository
 
 import junit.framework.Assert.assertEquals
+import junit.framework.Assert.assertTrue
 import nl.cgi.hackaton.domain.Series
 import org.junit.Before
 import org.junit.Rule
@@ -33,7 +34,7 @@ class SeriesRepositoryTest {
 
         // Verify that the numberOfSeries are as expected.
         val numberOfSeries = seriesRepository.count()
-        assertEquals(2, numberOfSeries)
+        assertEquals(4, numberOfSeries)
 
     }
 
