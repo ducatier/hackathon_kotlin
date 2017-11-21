@@ -1,4 +1,4 @@
-package nl.cgi.hackaton.demo
+package nl.cgi.hackaton
 
 import org.junit.Test
 import org.junit.runner.RunWith

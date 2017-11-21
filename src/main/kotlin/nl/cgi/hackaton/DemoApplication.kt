@@ -1,4 +1,4 @@
-package nl.cgi.hackaton.demo
+package nl.cgi.hackaton
 
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
